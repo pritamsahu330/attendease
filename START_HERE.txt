@@ -1,0 +1,25 @@
+ATTENDEASE FULL PROJECT
+
+1. Open the backend folder in VS Code terminal:
+   cd backend
+   npm install
+
+2. Create backend/.env from backend/.env.example.
+   Put your MongoDB Atlas connection string there.
+
+3. Start backend:
+   npm run dev
+
+4. Open another terminal:
+   cd frontend
+   npm install
+   npm run dev
+
+5. Open:
+   http://localhost:5173
+
+IMPORTANT:
+- Backend uses port 5001.
+- Frontend uses Vite port 5173.
+- MongoDB Atlas is required.
+- Never share your real MongoDB password.
